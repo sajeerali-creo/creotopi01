@@ -1,0 +1,19 @@
+header {
+    .menu {
+        ul{
+            display: flex;
+            gap:24px;
+            @media (min-width: 992px) {
+                gap:48px;
+            }
+            li {
+                a {
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: var(--black);
+                }
+            }
+        }
+
+    }
+}
